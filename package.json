@@ -1,0 +1,32 @@
+{
+  "name": "aqours",
+  "version": "1.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aqours/Aqours.git"
+  },
+  "author": "Aqours",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aqours/Aqours/issues"
+  },
+  "homepage": "https://github.com/Aqours/Aqours#readme",
+  "engines": {
+    "node": ">=10.10.0"
+  },
+  "prettier": {
+    "singleQuote": false,
+    "trailingComma": "all"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "dependencies": {
+    "husky": "3.0.3",
+    "prettier": "1.19.1",
+    "pretty-quick": "2.0.1"
+  }
+}
